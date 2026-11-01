@@ -21,4 +21,4 @@ Tablero Miro (solo lectura): https://miro.com/app/board/uXjVETSZPCQ=/
 |---|---|---|
 | 01/11/2026 | Angel Zambrano | Creación del README y avance 1: caja central, Tipos de SD y Modelos de comunicación |
 | 01/11/2026 | Angel Zambrano | Avance 2: Middleware, palabras de enlace y relaciones punteadas |
- 
+| 01/11/2026 | Luis Quintero | Avance 3: transparencia, tolerancia a fallos y teorema CAP |
