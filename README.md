@@ -33,3 +33,20 @@ Tablero Miro (solo lectura): https://miro.com/app/board/uXjVETSZPCQ=/
 5. Lazidis, A., Tsakos, K., & Petrakis, E. G. M. (2022). Publish–subscribe approaches for the IoT and the cloud: Functional and performance evaluation of open-source systems. *Internet of Things, 19*, 100538. https://doi.org/10.1016/j.iot.2022.100538
 6. Ahmed, J., Karpenko, A., Tarasyuk, O., Gorbenko, A., & Sheikh-Akbari, A. (2023). Consistency issue and related trade-offs in distributed replicated systems and databases: A review. *Radioelectronic and Computer Systems*, (2), 171–179. https://doi.org/10.32620/reks.2023.2.14
 7. Niswar, M., Safruddin, R. A., Bustamin, A., & Aswad, I. (2024). Performance evaluation of microservices communication with REST, GraphQL, and gRPC. *International Journal of Electronics and Telecommunications, 70*(2), 429–436. https://doi.org/10.24425/ijet.2024.149562
+
+## Anexos de evidencia
+- Anexo 1: Comienzo del mapa conceptual
+<img width="621" height="964" alt="d3c41f56-fb08-4757-a773-97cb7f11213f" src="https://github.com/user-attachments/assets/39ba8cb7-d8d6-41ad-8a78-357c3705ccb6" />
+
+- Anexo 2: Avance 1
+<img width="621" height="964" alt="c667931a-1d4a-4a02-89f7-79b3118884ec" src="https://github.com/user-attachments/assets/20a119e1-b114-4119-8c4d-86c5b6fece47" />
+
+- Anexo 3: Avance 2
+<img width="621" height="964" alt="faa4872b-9a69-4b8c-b468-76a39c1c5118" src="https://github.com/user-attachments/assets/b431bd13-76e1-4bc6-aa82-abde16328a17" />
+
+- Anexo 4: Avance 3
+<img width="621" height="964" alt="d3d7914e-196e-46b5-8c04-fdfe2c4c1687" src="https://github.com/user-attachments/assets/9141f5ce-68f1-4455-ba99-b882f8ced270" />
+
+- Anexo 5: Avance 4 y finalizacion con las referencias
+<img width="964" height="621" alt="Captura de pantalla_20261101_164401" src="https://github.com/user-attachments/assets/d410166b-d5ce-4130-8be9-b73677bd9afc" />
+
