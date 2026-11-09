@@ -1,4 +1,3 @@
-
 # FORM-FB-01: Fichas bibliográficas
 
 Universidad Técnica Estatal de Quevedo (UTEQ) · Carrera de Software
@@ -15,9 +14,9 @@ Semana 2 · 08/11/2026
 
 | Archivo | Descripción |
 |---|---|
-| `fichas.tex` | Documento principal en LaTeX con las 5 fichas bibliográficas |
+| `fichas.tex` | Documento principal en LaTeX con las 5 fichas bibliográficas y la declaración de uso de IA |
 | `referencias.bib` | Referencias para biblatex (estilo IEEE) |
-| `logo-uteq.jpg` | Logo de la universidad para la carátula |
+| `img/logo-uteq.jpg` | Logo de la universidad para la carátula |
 | `fichas.pdf` | Documento compilado |
 
 ## Fuentes
@@ -32,9 +31,8 @@ Semana 2 · 08/11/2026
 
 ## Cómo compilar
 
-Compilador: `pdflatex` con `biber` para la bibliografía.
-
-Archivo principal: `fichas.tex`
+- **Compilador:** `pdflatex`, con `biber` para la bibliografía.
+- **Archivo principal:** `fichas.tex`
 
 Orden de comandos, desde esta carpeta:
 
@@ -51,10 +49,16 @@ O en un solo paso:
 latexmk -pdf fichas.tex
 ```
 
-Dependencias:
+Para borrar los archivos auxiliares después de compilar: `latexmk -c`.
+
+## Dependencias
 
 - TeX Live 2022 o superior, o MiKTeX en Windows.
 - `biber`.
 - Paquetes: `biblatex`, `biblatex-ieee`, `babel` (`spanish` y `american`), `csquotes`, `geometry`, `graphicx`, `xcolor`, `enumitem`, `hyperref`, `lmodern`.
+- En Debian/Ubuntu: `sudo apt install texlive-latex-extra texlive-bibtex-extra texlive-lang-spanish biber`.
+- En CachyOS / Arch Linux: `sudo pacman -S texlive-basic texlive-latex texlive-latexrecommended texlive-latexextra texlive-bibtexextra texlive-fontsrecommended texlive-langspanish texlive-binextra biber`.
 
-En Overleaf: subir los cuatro archivos y en Menu → Settings elegir Compiler: pdfLaTeX. Overleaf corre `biber` solo.
+## Overleaf
+
+Sube `fichas.tex`, `referencias.bib` y la carpeta `img/` con el logo, manteniendo la misma estructura. En Menu → Settings elige Compiler: pdfLaTeX y Main document: `fichas.tex`. Overleaf ejecuta `biber` automáticamente.
